@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option php_namespace = "GRPC\\Catalog";
+option php_metadata_namespace = "GRPC\\GPBMetadata";
+
+package CatalogApi;
+
+message CatalogItemRequest {
+  int32 id = 1;
+}
+
+message CatalogItemResponse {
+  int32 id = 1;
+  string name = 2;
+  string description = 3;
+  double price = 4;
+}
+
+service Catalog {
+  rpc GetItemById (CatalogItemRequest) returns (CatalogItemResponse) {
+  }
+}
+
