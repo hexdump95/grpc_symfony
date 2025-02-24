@@ -1,6 +1,6 @@
 <?php
 
-namespace App\GRPC\Catalog;
+namespace App\GRPC;
 
 use GRPC\Catalog\CatalogInterface;
 use GRPC\Catalog\CatalogItemRequest;

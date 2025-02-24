@@ -2,8 +2,7 @@
 
 namespace App\Controller;
 
-use App\GRPC\Catalog\CatalogClient;
-use GRPC\Catalog\CatalogInterface;
+use App\GRPC\CatalogClient;
 use GRPC\Catalog\CatalogItemRequest;
 use Spiral\RoadRunner\GRPC\Context;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;

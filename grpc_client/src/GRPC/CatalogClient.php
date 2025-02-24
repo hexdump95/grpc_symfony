@@ -1,6 +1,6 @@
 <?php
 
-namespace App\GRPC\Catalog;
+namespace App\GRPC;
 
 use Grpc\BaseStub;
 use GRPC\Catalog\CatalogInterface;
